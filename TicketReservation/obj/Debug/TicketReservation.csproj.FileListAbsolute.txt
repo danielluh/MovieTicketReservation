@@ -18,18 +18,14 @@ C:\Users\Francis\Downloads\OLD\git\PortableGit\MovieTicketReservation-master\Tic
 C:\Users\Francis\Downloads\OLD\git\PortableGit\MovieTicketReservation-master\TicketReservation\obj\Debug\TicketReservation.movies.resources
 C:\Users\Francis\Downloads\OLD\git\PortableGit\MovieTicketReservation-master\TicketReservation\obj\Debug\TicketReservation.Properties.Resources.resources
 C:\Users\Francis\Downloads\OLD\git\PortableGit\MovieTicketReservation-master\TicketReservation\obj\Debug\TicketReservation.csproj.GenerateResource.Cache
-<<<<<<< HEAD
-C:\Users\Francis\Documents\SCHOOL FILES\git\PortableGit\MovieTicketReservation-master\TicketReservation\bin\Debug\TicketReservation.exe.config
-C:\Users\Francis\Documents\SCHOOL FILES\git\PortableGit\MovieTicketReservation-master\TicketReservation\obj\Debug\TicketReservation.exe
-C:\Users\Francis\Documents\SCHOOL FILES\git\PortableGit\MovieTicketReservation-master\TicketReservation\obj\Debug\TicketReservation.pdb
-=======
 C:\Users\Francis\Downloads\OLD\git\PortableGit\MovieTicketReservation-master\TicketReservation\obj\Debug\TicketReservation.screen.resources
->>>>>>> ad9eff755340c4e472b2f9833d213cd1fdb76b99
-C:\Users\Francis\Documents\SCHOOL FILES\git\PortableGit\MovieTicketReservation-master\TicketReservation\obj\Debug\TicketReservation.csprojResolveAssemblyReference.cache
+C:\Users\Francis\Documents\SCHOOL FILES\git\PortableGit\MovieTicketReservation-master\TicketReservation\bin\Debug\TicketReservation.exe.config
+C:\Users\Francis\Documents\SCHOOL FILES\git\PortableGit\MovieTicketReservation-master\TicketReservation\bin\Debug\TicketReservation.exe
+C:\Users\Francis\Documents\SCHOOL FILES\git\PortableGit\MovieTicketReservation-master\TicketReservation\bin\Debug\TicketReservation.pdb
 C:\Users\Francis\Documents\SCHOOL FILES\git\PortableGit\MovieTicketReservation-master\TicketReservation\obj\Debug\TicketReservation.login.resources
 C:\Users\Francis\Documents\SCHOOL FILES\git\PortableGit\MovieTicketReservation-master\TicketReservation\obj\Debug\TicketReservation.movies.resources
 C:\Users\Francis\Documents\SCHOOL FILES\git\PortableGit\MovieTicketReservation-master\TicketReservation\obj\Debug\TicketReservation.Properties.Resources.resources
 C:\Users\Francis\Documents\SCHOOL FILES\git\PortableGit\MovieTicketReservation-master\TicketReservation\obj\Debug\TicketReservation.screen.resources
 C:\Users\Francis\Documents\SCHOOL FILES\git\PortableGit\MovieTicketReservation-master\TicketReservation\obj\Debug\TicketReservation.csproj.GenerateResource.Cache
-C:\Users\Francis\Documents\SCHOOL FILES\git\PortableGit\MovieTicketReservation-master\TicketReservation\bin\Debug\TicketReservation.exe
-C:\Users\Francis\Documents\SCHOOL FILES\git\PortableGit\MovieTicketReservation-master\TicketReservation\bin\Debug\TicketReservation.pdb
+C:\Users\Francis\Documents\SCHOOL FILES\git\PortableGit\MovieTicketReservation-master\TicketReservation\obj\Debug\TicketReservation.exe
+C:\Users\Francis\Documents\SCHOOL FILES\git\PortableGit\MovieTicketReservation-master\TicketReservation\obj\Debug\TicketReservation.pdb
