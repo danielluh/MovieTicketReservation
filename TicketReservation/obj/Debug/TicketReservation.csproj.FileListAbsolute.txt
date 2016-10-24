@@ -29,3 +29,4 @@ C:\Users\Francis\Documents\SCHOOL FILES\git\PortableGit\MovieTicketReservation-m
 C:\Users\Francis\Documents\SCHOOL FILES\git\PortableGit\MovieTicketReservation-master\TicketReservation\obj\Debug\TicketReservation.csproj.GenerateResource.Cache
 C:\Users\Francis\Documents\SCHOOL FILES\git\PortableGit\MovieTicketReservation-master\TicketReservation\obj\Debug\TicketReservation.exe
 C:\Users\Francis\Documents\SCHOOL FILES\git\PortableGit\MovieTicketReservation-master\TicketReservation\obj\Debug\TicketReservation.pdb
+C:\Users\Francis\Documents\SCHOOL FILES\git\PortableGit\MovieTicketReservation-master\TicketReservation\obj\Debug\TicketReservation.csprojResolveAssemblyReference.cache

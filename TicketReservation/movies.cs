@@ -17,9 +17,10 @@ namespace TicketReservation
             InitializeComponent();
         }
 
-        int totalSeatCount = 0;
-        double price = 0.00, totalPrice = 0.00;
-        int count = 0;
+        public int totalSeatCount = 0;
+        public double price = 0.00, totalPrice = 0.00;
+        public int count = 0;
+
         private void movies_Load(object sender, EventArgs e)
         {
             checkBox1.Appearance = System.Windows.Forms.Appearance.Button;
@@ -40,25 +41,25 @@ namespace TicketReservation
             tboxTotalAmount.Text = Convert.ToString("0.00");
             tboxPayAmount.Text = Convert.ToString("0.00");
 
+            /* assign value from previous screen */
             lblMoviePrice.Text = screen.price;
             lblShowing.Text = screen.time;
             lblTitle.Text = screen.title;
             lblCinema.Text = screen.cinema;
+            lblSeatCount.Text = screen.seat;
+
+            price = double.Parse(screen.price);
+            totalSeatCount = Int32.Parse(screen.seat);
 
         }
 
         private void btnCancel_Click(object sender, EventArgs e)
         {   
-            // clear all checked checkbox and reset inputs to default
+            // clear all checked checkbox and reset inputs to default value
             foreach (Control crtl in this.Controls)
             {
                 if (crtl is CheckBox)
-                {
-                    if (((CheckBox)crtl).Checked == true)
-                    {
-                        ((CheckBox)crtl).Checked = false;
-                    }
-                }
+                    if (((CheckBox)crtl).Checked == true) ((CheckBox)crtl).Checked = false;
             }
         }
 
@@ -66,31 +67,17 @@ namespace TicketReservation
         {
             // if seatAvailable is equal to 0 disable uncheck checkbox
             if (count == totalSeatCount)
-            {
                 foreach (Control crtl in this.Controls)
                 {
                     if (crtl is CheckBox)
-                    {
-                        if (((CheckBox)crtl).Checked == false)
-                        {
-                            crtl.Enabled = false;
-                        }
-                    }
+                        if (((CheckBox)crtl).Checked == false) crtl.Enabled = false;
                 }
-            }
             else
-            {
                 foreach (Control crtl in this.Controls)
                 {
                     if (crtl is CheckBox)
-                    {
-                        if (((CheckBox)crtl).Checked == false)
-                        {
-                            crtl.Enabled = true;
-                        }
-                    }
+                        if (((CheckBox)crtl).Checked == false) crtl.Enabled = true;
                 }
-            }
 
             //Computation for Cinema Details and Payment Details
             lblMoviePrice.Text = price.ToString("#.00");
@@ -101,205 +88,135 @@ namespace TicketReservation
         private void checkBox1_CheckedChanged(object sender, EventArgs e)
         {
             if (checkBox1.Checked)
-            {
-                MessageBox.Show("checked");
-                count += 1;
-                totalPrice += price;
-            }
+                AddSeat();
             else
-            {
-                MessageBox.Show("unchecked");
-                count -= 1;
-                totalPrice -= price;
-            }
+                RemoveSeat();
+
             seatCount(count, totalPrice);
         }
 
         private void checkBox2_CheckedChanged(object sender, EventArgs e)
         {
             if (checkBox2.Checked)
-            {
-                MessageBox.Show("checked");
-                count += 1;
-                totalPrice += price;
-            }
+                AddSeat();
             else
-            {
-                MessageBox.Show("unchecked");
-                count -= 1;
-                totalPrice -= price;
-            }
+                RemoveSeat();
+
             seatCount(count, totalPrice);
         }
 
         private void checkBox3_CheckedChanged(object sender, EventArgs e)
         {
             if (checkBox3.Checked)
-            {
-                MessageBox.Show("checked");
-                count += 1;
-                totalPrice += price;
-            }
+                AddSeat();
             else
-            {
-                MessageBox.Show("unchecked");
-                count -= 1;
-                totalPrice -= price;
-            }
+                RemoveSeat();
+
             seatCount(count, totalPrice);
         }
 
         private void checkBox4_CheckedChanged(object sender, EventArgs e)
         {
             if (checkBox4.Checked)
-            {
-                MessageBox.Show("checked");
-                count += 1;
-                totalPrice += price;
-            }
+                AddSeat();
             else
-            {
-                MessageBox.Show("unchecked");
-                count -= 1;
-                totalPrice -= price;
-            }
+                RemoveSeat();
+
             seatCount(count, totalPrice);
         }
 
         private void checkBox5_CheckedChanged(object sender, EventArgs e)
         {
             if (checkBox5.Checked)
-            {
-                MessageBox.Show("checked");
-                count += 1;
-                totalPrice += price;
-            }
+                AddSeat();
             else
-            {
-                MessageBox.Show("unchecked");
-                count -= 1;
-                totalPrice -= price;
-            }
+                RemoveSeat();
+
             seatCount(count, totalPrice);
         }
 
         private void checkBox6_CheckedChanged(object sender, EventArgs e)
         {
             if (checkBox6.Checked)
-            {
-                MessageBox.Show("checked");
-                count += 1;
-                totalPrice += price;
-            }
+                AddSeat();
             else
-            {
-                MessageBox.Show("unchecked");
-                count -= 1;
-                totalPrice -= price;
-            }
+                RemoveSeat();
+
             seatCount(count, totalPrice);
         }
 
         private void checkBox7_CheckedChanged(object sender, EventArgs e)
         {
             if (checkBox7.Checked)
-            {
-                MessageBox.Show("checked");
-                count += 1;
-                totalPrice += price;
-            }
+                AddSeat();
             else
-            {
-                MessageBox.Show("unchecked");
-                count -= 1;
-                totalPrice -= price;
-            }
+                RemoveSeat();
+
             seatCount(count, totalPrice);
         }
 
         private void checkBox8_CheckedChanged(object sender, EventArgs e)
         {
             if (checkBox8.Checked)
-            {
-                MessageBox.Show("checked");
-                count += 1;
-                totalPrice += price;
-            }
+                AddSeat();
             else
-            {
-                MessageBox.Show("unchecked");
-                count -= 1;
-                totalPrice -= price;
-            }
+                RemoveSeat();
+
             seatCount(count, totalPrice);
         }
 
         private void checkBox9_CheckedChanged(object sender, EventArgs e)
         {
             if (checkBox9.Checked)
-            {
-                MessageBox.Show("checked");
-                count += 1;
-                totalPrice += price;
-            }
+                AddSeat();
             else
-            {
-                MessageBox.Show("unchecked");
-                count -= 1;
-                totalPrice -= price;
-            }
+                RemoveSeat();
+
             seatCount(count, totalPrice);
         }
 
         private void checkBox10_CheckedChanged(object sender, EventArgs e)
         {
             if (checkBox10.Checked)
-            {
-                MessageBox.Show("checked");
-                count += 1;
-                totalPrice += price;
-            }
+                AddSeat();
             else
-            {
-                MessageBox.Show("unchecked");
-                count -= 1;
-                totalPrice -= price;
-            }
+                RemoveSeat();
+            
             seatCount(count, totalPrice);
         }
 
         private void checkBox11_CheckedChanged(object sender, EventArgs e)
         {
             if (checkBox11.Checked)
-            {
-                MessageBox.Show("checked");
-                count += 1;
-                totalPrice += price;
-            }
+                AddSeat();
             else
-            {
-                MessageBox.Show("unchecked");
-                count -= 1;
-                totalPrice -= price;
-            }
+                RemoveSeat();
+
             seatCount(count, totalPrice);
         }
 
         private void checkBox12_CheckedChanged(object sender, EventArgs e)
         {
-            if (checkBox12.Checked)
-            {
-                MessageBox.Show("checked");
-                count += 1;
-                totalPrice += price;
-            }
-            else
-            {
-                MessageBox.Show("unchecked");
-                count -= 1;
-                totalPrice -= price;
-            }
+            if (checkBox12.Checked) 
+                AddSeat();
+            else 
+                RemoveSeat();
+
             seatCount(count, totalPrice);
+        }
+
+        public void AddSeat()
+        {
+            MessageBox.Show("checked");
+            count += 1;
+            totalPrice += price;
+        }
+
+        public void RemoveSeat() 
+        {
+            MessageBox.Show("unchecked");
+            count -= 1;
+            totalPrice -= price;
         }
 
         private void tboxPayAmountLeave(object sender, EventArgs e)
@@ -309,9 +226,7 @@ namespace TicketReservation
             double total = (payAmount - totalAmount);
 
             if (total < 0)
-            {
                 MessageBox.Show("Please Enter Exact to Greater than the Total Amount");
-            }
             tboxChange.Text = total.ToString("0.00");
         }
     }

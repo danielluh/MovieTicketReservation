@@ -58,6 +58,12 @@
             this.label22 = new System.Windows.Forms.Label();
             this.label23 = new System.Windows.Forms.Label();
             this.label24 = new System.Windows.Forms.Label();
+            this.label25 = new System.Windows.Forms.Label();
+            this.label26 = new System.Windows.Forms.Label();
+            this.label27 = new System.Windows.Forms.Label();
+            this.label28 = new System.Windows.Forms.Label();
+            this.label29 = new System.Windows.Forms.Label();
+            this.label30 = new System.Windows.Forms.Label();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
             this.groupBox3.SuspendLayout();
@@ -95,6 +101,8 @@
             // 
             // groupBox1
             // 
+            this.groupBox1.Controls.Add(this.label25);
+            this.groupBox1.Controls.Add(this.label26);
             this.groupBox1.Controls.Add(this.label5);
             this.groupBox1.Controls.Add(this.label6);
             this.groupBox1.Controls.Add(this.label7);
@@ -183,6 +191,8 @@
             // 
             // groupBox2
             // 
+            this.groupBox2.Controls.Add(this.label29);
+            this.groupBox2.Controls.Add(this.label30);
             this.groupBox2.Controls.Add(this.label9);
             this.groupBox2.Controls.Add(this.label10);
             this.groupBox2.Controls.Add(this.label11);
@@ -204,7 +214,7 @@
             this.label9.Name = "label9";
             this.label9.Size = new System.Drawing.Size(40, 13);
             this.label9.TabIndex = 16;
-            this.label9.Text = "230.00";
+            this.label9.Text = "260.00";
             // 
             // label10
             // 
@@ -213,16 +223,16 @@
             this.label10.Name = "label10";
             this.label10.Size = new System.Drawing.Size(87, 13);
             this.label10.TabIndex = 15;
-            this.label10.Text = "12:00 - 02:00 pm";
+            this.label10.Text = "09:00 - 11:00 pm";
             // 
             // label11
             // 
             this.label11.AutoSize = true;
             this.label11.Location = new System.Drawing.Point(76, 19);
             this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(54, 13);
+            this.label11.Size = new System.Drawing.Size(96, 13);
             this.label11.TabIndex = 13;
-            this.label11.Text = "Mr. Robot";
+            this.label11.Text = "The Zero Theorem";
             // 
             // label12
             // 
@@ -231,7 +241,7 @@
             this.label12.Name = "label12";
             this.label12.Size = new System.Drawing.Size(13, 13);
             this.label12.TabIndex = 14;
-            this.label12.Text = "3";
+            this.label12.Text = "1";
             // 
             // label13
             // 
@@ -271,6 +281,8 @@
             // 
             // groupBox3
             // 
+            this.groupBox3.Controls.Add(this.label27);
+            this.groupBox3.Controls.Add(this.label28);
             this.groupBox3.Controls.Add(this.label17);
             this.groupBox3.Controls.Add(this.label18);
             this.groupBox3.Controls.Add(this.label19);
@@ -292,7 +304,7 @@
             this.label17.Name = "label17";
             this.label17.Size = new System.Drawing.Size(40, 13);
             this.label17.TabIndex = 16;
-            this.label17.Text = "230.00";
+            this.label17.Text = "210.00";
             // 
             // label18
             // 
@@ -301,16 +313,16 @@
             this.label18.Name = "label18";
             this.label18.Size = new System.Drawing.Size(87, 13);
             this.label18.TabIndex = 15;
-            this.label18.Text = "12:00 - 02:00 pm";
+            this.label18.Text = "05:00 - 06:30 pm";
             // 
             // label19
             // 
             this.label19.AutoSize = true;
             this.label19.Location = new System.Drawing.Point(76, 19);
             this.label19.Name = "label19";
-            this.label19.Size = new System.Drawing.Size(54, 13);
+            this.label19.Size = new System.Drawing.Size(69, 13);
             this.label19.TabIndex = 13;
-            this.label19.Text = "Mr. Robot";
+            this.label19.Text = "Source Code";
             // 
             // label20
             // 
@@ -319,7 +331,7 @@
             this.label20.Name = "label20";
             this.label20.Size = new System.Drawing.Size(13, 13);
             this.label20.TabIndex = 14;
-            this.label20.Text = "3";
+            this.label20.Text = "2";
             // 
             // label21
             // 
@@ -356,6 +368,60 @@
             this.label24.Size = new System.Drawing.Size(42, 13);
             this.label24.TabIndex = 5;
             this.label24.Text = "Cinema";
+            // 
+            // label25
+            // 
+            this.label25.AutoSize = true;
+            this.label25.Location = new System.Drawing.Point(76, 124);
+            this.label25.Name = "label25";
+            this.label25.Size = new System.Drawing.Size(19, 13);
+            this.label25.TabIndex = 18;
+            this.label25.Text = "25";
+            // 
+            // label26
+            // 
+            this.label26.AutoSize = true;
+            this.label26.Location = new System.Drawing.Point(6, 124);
+            this.label26.Name = "label26";
+            this.label26.Size = new System.Drawing.Size(60, 13);
+            this.label26.TabIndex = 17;
+            this.label26.Text = "Seat Count";
+            // 
+            // label27
+            // 
+            this.label27.AutoSize = true;
+            this.label27.Location = new System.Drawing.Point(76, 123);
+            this.label27.Name = "label27";
+            this.label27.Size = new System.Drawing.Size(19, 13);
+            this.label27.TabIndex = 20;
+            this.label27.Text = "25";
+            // 
+            // label28
+            // 
+            this.label28.AutoSize = true;
+            this.label28.Location = new System.Drawing.Point(6, 123);
+            this.label28.Name = "label28";
+            this.label28.Size = new System.Drawing.Size(60, 13);
+            this.label28.TabIndex = 19;
+            this.label28.Text = "Seat Count";
+            // 
+            // label29
+            // 
+            this.label29.AutoSize = true;
+            this.label29.Location = new System.Drawing.Point(76, 124);
+            this.label29.Name = "label29";
+            this.label29.Size = new System.Drawing.Size(19, 13);
+            this.label29.TabIndex = 22;
+            this.label29.Text = "25";
+            // 
+            // label30
+            // 
+            this.label30.AutoSize = true;
+            this.label30.Location = new System.Drawing.Point(6, 124);
+            this.label30.Name = "label30";
+            this.label30.Size = new System.Drawing.Size(60, 13);
+            this.label30.TabIndex = 21;
+            this.label30.Text = "Seat Count";
             // 
             // screen
             // 
@@ -413,5 +479,11 @@
         private System.Windows.Forms.Label label22;
         private System.Windows.Forms.Label label23;
         private System.Windows.Forms.Label label24;
+        private System.Windows.Forms.Label label25;
+        private System.Windows.Forms.Label label26;
+        private System.Windows.Forms.Label label29;
+        private System.Windows.Forms.Label label30;
+        private System.Windows.Forms.Label label27;
+        private System.Windows.Forms.Label label28;
     }
 }
