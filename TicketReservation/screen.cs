@@ -12,14 +12,40 @@ namespace TicketReservation
 {
     public partial class screen : Form
     {
+        public static string price = "", time = "", title = "", seatCount = "";
+
         public screen()
         {
             InitializeComponent();
+
         }
 
         private void screen_Load(object sender, EventArgs e)
         {
             button1.BackgroundImageLayout = ImageLayout.Stretch;
+
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+
+            price = label5.Text;
+            time = label6.Text;
+            title = label7.Text;
+            seatCount = label8.Text;
+
+            movies frm2 = new movies();
+            frm2.Show(); 
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

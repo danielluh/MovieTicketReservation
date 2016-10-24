@@ -17,8 +17,8 @@ namespace TicketReservation
             InitializeComponent();
         }
 
-        int totalSeatCount = 10;
-        double price = 270.50, totalPrice = 0.00;
+        int totalSeatCount = 0;
+        double price = 0.00, totalPrice = 0.00;
         int count = 0;
         private void movies_Load(object sender, EventArgs e)
         {
@@ -39,6 +39,12 @@ namespace TicketReservation
             tboxChange.Text = Convert.ToString("0.00");
             tboxTotalAmount.Text = Convert.ToString("0.00");
             tboxPayAmount.Text = Convert.ToString("0.00");
+
+            lblMoviePrice.Text = screen.price;
+            lblShowing.Text = screen.time;
+            lblTitle.Text = screen.title;
+            lblSeatCount.Text = screen.seatCount;
+
         }
 
         private void btnCancel_Click(object sender, EventArgs e)
