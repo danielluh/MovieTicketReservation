@@ -12,7 +12,7 @@ namespace TicketReservation
 {
     public partial class screen : Form
     {
-        public static string price = "", time = "", title = "", seatCount = "";
+        public static string price = "", time = "", title = "", cinema = "";
 
         public screen()
         {
@@ -32,8 +32,8 @@ namespace TicketReservation
             price = label5.Text;
             time = label6.Text;
             title = label7.Text;
-            seatCount = label8.Text;
-
+            cinema = label8.Text;
+            this.Hide();
             movies frm2 = new movies();
             frm2.Show(); 
         }

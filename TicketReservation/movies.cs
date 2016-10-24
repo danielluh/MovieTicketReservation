@@ -43,7 +43,7 @@ namespace TicketReservation
             lblMoviePrice.Text = screen.price;
             lblShowing.Text = screen.time;
             lblTitle.Text = screen.title;
-            lblSeatCount.Text = screen.seatCount;
+            lblCinema.Text = screen.cinema;
 
         }
 
